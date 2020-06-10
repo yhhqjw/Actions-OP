@@ -1,0 +1,11 @@
+on: repository_dispatch
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Hello World
+      run: |
+        echo My name is P3TERX.
+        echo Hello World!
